@@ -6,14 +6,14 @@ terraform {
   }
 
    backend "gcs" {
-    bucket  = "barberoterraform"
+    bucket  = "takeshi-test-1"
     prefix  = "terraform/state"
   }
   
 }
 
 provider "google" {
-  project = "barbero-devops-iac"
+  project = "coherent-bliss-275820"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
